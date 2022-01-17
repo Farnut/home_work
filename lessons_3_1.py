@@ -36,7 +36,6 @@ if type(number1) == type(1):
                 print('Zero division')
         else:
             print('Incorrect command')
-
     else:
         print('Number2 is not int')
 else:

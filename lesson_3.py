@@ -19,12 +19,12 @@
 # else:
 #     print("Too much")
 
-# weight = 0.11
-# if weight < 0:
-#     print("error-")
-# elif weight <= 0.1:
-#     print('too small')
-# elif weight > 150:
-#     print('too much')
-# else:
-#     print(weight)
+weight = 0.11
+if weight < 0:
+    print("error-")
+elif weight <= 0.1:
+    print('too small')
+elif weight > 150:
+    print('too much')
+else:
+    print(weight)
