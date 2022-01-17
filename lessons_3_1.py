@@ -42,22 +42,22 @@ if type(number1) == type(1):
 else:
     print('Number1 is not int')
 
-number1 = 3
-command = '+'
-number2 = 7
-if command == '+':
-    print(number1,command,number2,'=',number1 + number2)
-elif command == '-':
-    print(number1,command,number2,'=',number1 - number2)
-elif command == '*':
-    print(number1,command,number2,'=',number1 * number2)
-elif command == '/':
-    if number1 != 0:
-        print(number1,command,number2,'=',number1 / number2)
-    else:
-        print('zero division')
-else:
-    print('incorrect command')
+# number1 = 3
+# command = '+'
+# number2 = 7
+# if command == '+':
+#     print(number1,command,number2,'=',number1 + number2)
+# elif command == '-':
+#     print(number1,command,number2,'=',number1 - number2)
+# elif command == '*':
+#     print(number1,command,number2,'=',number1 * number2)
+# elif command == '/':
+#     if number1 != 0:
+#         print(number1,command,number2,'=',number1 / number2)
+#     else:
+#         print('zero division')
+# else:
+#     print('incorrect command')
 
 
 
