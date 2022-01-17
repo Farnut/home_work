@@ -66,23 +66,23 @@
 #     print("Wrong number")
 
 ##Zero
-# number = input("Enter your number : ")
-# if number > "0":
-#     print("Number is positive")
-# elif number < "0":
-#     print("Number is negative")
-# elif number == "0":
-#     print("Number is equal to zero")
-# else:
-#     print("Dont use alphabet, enter literal")
+number = float(input("Enter your number : "))
+if number > 0:
+    print("Number is positive")
+elif number < 0:
+    print("Number is negative")
+elif number == 0:
+    print("Number is equal to zero")
+
+
 
 ##Equivalent
-number1 = input("Enter first number : ")
-number2 = input("Enter second number : ")
-if number1 == number2:
-    print("Numbers are equivalent")
-else:
-    if number1 > number2:
-       print(number2, number1)
-    else:
-        print(number1, number2)
+# number1 = input("Enter first number : ")
+# number2 = input("Enter second number : ")
+# if number1 == number2:
+#     print("Numbers are equivalent")
+# else:
+#     if number1 > number2:
+#        print(number2, number1)
+#     else:
+#         print(number1, number2)
