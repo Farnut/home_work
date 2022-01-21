@@ -1,33 +1,103 @@
-'''[20:52]
-Пользователь вводит с клавиатуры целое шестизначное число. Написать программу, которая определяет,является ли введенное число — счастливым
-(Счастливым считается шестизначное число, у которого суммапервых 3 цифр равна сумме вторых трех цифр).Например, 123321 — счастливое число,
-так как 1+2+3 = 3+2+1. С другой стороны 378423 несчастливое число, так как 3+7+8 != 4+2+3.
-Если пользователь ввел не шестизначное число требуется вывести сообщение об ошибке.'''
-# number = 123456
-# n1 = (number)//100000
-# n2 = ((number)//10000)%10
-# n3 = ((number)//1000)%10
-# n4 = ((number)//100)%10
-# n5 = ((number)//10)%10
-# n6 = ((number)//1)%10
-# print(n1,n2,n3,n4,n5,n6)
-
-'''Пользователь вводит с клавиатуры номер месяца (от 1 до 12). В зависимости от полученного номера месяца программа выводит на экран надпись: 
-Winter (если введено значение 1,2 или 12), Spring (если введено значение от 3 до 5), Summer (если введено значение от 6 до 8), Autumn
-(если введено значение от 9 до 11). Если пользователь ввел значение не в диапазоне от 1до 12 требуется вывести сообщение об ошибке.'''
-
-# m = int(input("Enter month : "))
-# if m == 1 or m == 2 or m == 12:
-#     print("Winter")
-# elif m >= 3 and m <= 5:
-#     print("Spring")
-# elif m >= 6 and m <= 8:
-#     print("Summer")
-# elif m >= 9 and m <= 11:
-#     print("Autum")
+##AND , OR , NOT
+# a = 2
+# b = 3
+# c = 4
+# if a == b == c:
+#     print(3)
+# elif a == b:
+#     print(2)
+# elif b == c:
+#     print(2)
+# elif a == c:
+#     print(2)
 # else:
-#     print("Wrong month number")
+#     print(0)
+#
+# a = 12
+# b = 6
+# c = 4
+# if a >= b >= c:
+#     print(a)
+#     if b >= c:
+#         print(b)
+#         print(c)
+#     else:
+#         print(c)
+#         print(b)
+# elif b >= a >= c:
+#     print(a)
+#     if b >= c:
+#         print(b)
+#         print(c)
+#     else:
+#         print(c)
+#         print(b)
+
+# x = int(input("Enter x : "))
+# y = int(input("Enter y : "))
+#
+# if x > 0:
+#     if y > 0:
+#         print("I axis")
+#     elif y == 0:
+#         print("X axis")
+#     else:
+#         print("IV axis")
+# if x == 0:
+#     if y == 0:
+#         print("ZERO")
+#     else:
+#         print("Y axis")
+# if x < 0:
+#     if y > 0:
+#         print("II axis")
+#     elif y == 0:
+#         print("X axis")
+#     else:
+#         print("III axis")
+
+# x = 4
+# y = 0
+# if x > 0 and y > 0:
+#     print('I')
+# elif x > 0 and y < 0:
+#     print('IV')
+# elif x < 0 and y < 0:
+#     print('III')
+# elif x < 0 and y > 0:
+#     print('II')
+# # elif x != 0 and y == 0:
+# #     print('On Axis X')
+# elif x > 0 and y == 0:
+#     print('On Axis X+')
+# elif x < 0 and y == 0:
+#     print('On Axis X-')
+# # elif x == 0 and y != 0:
+# #     print('On Axis Y')
+# elif y > 0 and x == 0:
+#     print('On Axis Y+')
+# elif y < 0 and x == 0:
+#     print('On Axis Y-')
+# elif y == 0 and x == 0:
+#     print('ZERO')
+
+# number = int(input("Enter number : "))
+# if number % 2 == 0:
+#     print('Even')
+# elif number % 2 != 0:
+#     print('Odd')
+# else:
+#     print('Zero')
 
 '''Задание 2
-Пользователь вводит шестизначное число. Необходимо поменять в этом числе первую и шестую цифры, а также вторую и пятую цифры.
-Например, 723895 должно превратиться в 593827. Если пользователь ввел не шестизначное число требуется вывести сообщение об ошибке'''
+Пользователь вводит с клавиатуры число. Необходимо проверить его на кратность 7. Если число кратно
+требуется вывести на экран число и надпись Number is
+multiple 7. Если число не кратно выведите на экран число
+и надпись Number is not multiple 7.'''
+number = int(input("Enter number : "))
+if number == 0:
+    print("Enter more then 0")
+elif number %7 == 0:
+    print("Number is multiple 7")
+else:
+    print("Number is not multiple 7")
