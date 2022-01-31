@@ -25,6 +25,23 @@
 '''Задание 3
 Написать программу подсчета стоимости разговора для разных мобильных операторов. Пользователь вводит длительность разговора и выбирает 
 с какого на какой оператор он звонит. Вывести стоимость на экран.'''
+prov1 = "kst"
+prov2 = "mts"
+cost_prov1 = 1
+cost_prov2 = 2
+time_talk = 1
+outp = "kst"
+inp = "kst"
+cost_talk = 0
+if outp == prov1 and inp == prov2:
+    cost_talk = cost_prov1 * time_talk
+    print(f"Your pay is {cost_talk}")
+elif outp == prov2 and inp == prov1:
+    cost_talk = cost_prov2 * time_talk
+    print(f"Your pay is {cost_talk}")
+else:
+    cost_talk = 0
+    print(f"Your pay is {cost_talk}")
 
 '''Задание 4
 Зарплата менеджера составляет 200$ + процент от продаж, продажи до 500$ — 3%, от 500 до 1000 — 5%, свыше 1000 — 8%. Пользователь 
