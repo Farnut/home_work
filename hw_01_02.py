@@ -30,8 +30,8 @@
 # cost_prov1 = 1
 # cost_prov2 = 2
 # time_talk = 1 #float(input(f"Enter time to talk : "))
-# outp = "kst" #float(input(f"Enter output provider mts or kst : "))
-# inp = "kst" #float(input(f"Enter input provider mts or kst : "))
+# outp = "kst" #str(input(f"Enter output provider mts or kst : "))
+# inp = "kst" #str(input(f"Enter input provider mts or kst : "))
 # cost_talk = 0
 # if outp == prov1 and inp == prov2:
 #     cost_talk = cost_prov1 * time_talk
