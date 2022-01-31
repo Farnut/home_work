@@ -10,17 +10,17 @@
 выделить кабинет для каждого класса и купить в них новые парты. За каждой партой может сидеть не больше двух учеников. Известно количество 
 учащихся в каждом из трёх классов. Сколько всего нужно закупить парт чтобы их хватило на всех учеников? Программа получает на вход 
 три натуральных числа: количество учащихся в каждом из трех классов.'''
-class1 = 10
-class2 = 11
-class3 = 10
-sum_stud = class1 + class2 + class3
-if sum_stud % 2 != 0:
-    sum_stud = sum_stud + 1
-    sum_stud = sum_stud / 2
-    print("Need table is ", sum_stud)
-else:
-    sum_stud = sum_stud / 2
-    print("Need table is ", sum_stud)
+# class1 = 10
+# class2 = 11
+# class3 = 10
+# sum_stud = class1 + class2 + class3
+# if sum_stud % 2 != 0:
+#     sum_stud = sum_stud + 1
+#     sum_stud = sum_stud / 2
+#     print("Need table is ", sum_stud)
+# else:
+#     sum_stud = sum_stud / 2
+#     print("Need table is ", sum_stud)
 '''Даны три целых числа. Определите, сколько среди них совпадающих. Программа должна вывести одно из чисел: 3 (если все совпадают), 
 2 (если два совпадает) или 0 (если все числа различны).'''
 # a = 3
