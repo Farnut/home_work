@@ -26,23 +26,23 @@ print(trio)
 countries = {'Ukraine': 'Kiev', 'Poland': 'Warshava'}
 d = {0: 'Andrey', 'a': 'Forever', 'k': 3}
 #ключ - любой неизменяемый тип данных : значение - любой тип данных
-print(d)
-print(d['a'])
-d['a'] = 'Never'
-print(d)
-d['a'] = ['Never','Forever']
-print(d)
-print(d['a'][0])
-d['b'] = 'abc'#Add new element
-print(d)
-d.pop('k')#Delete by key and pop it
-print(d)
-print(d.popitem())#Delete random and pop it
-print(d)
+# print(d)
+# print(d['a'])
+# d['a'] = 'Never'
+# print(d)
+# d['a'] = ['Never','Forever']
+# print(d)
+# print(d['a'][0])
+# d['b'] = 'abc'#Add new element
+# print(d)
+# d.pop('k')#Delete by key and pop it
+# print(d)
+# print(d.popitem())#Delete random and pop it
+# print(d)
 '''dict.pop(key[, default]) - удаляет ключ и возвращает значение. Если ключа нет, 
 возвращает default (по умолчанию бросает исключение).
 
 dict.popitem() - удаляет и возвращает пару (ключ, значение). Если словарь пуст, бросает исключение KeyError. 
 Помните, что словари неупорядочены.'''
-print(d.keys())
-print(d.values())
+# print(d.keys())
+# print(d.values())
