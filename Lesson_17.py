@@ -1,8 +1,8 @@
-l = [1, 2, 3]  # list
-t = (1, 2, 3)  # tuple
-d = {'a': 1, 'b': 2, 'c': 3}  # dictionary
-s = {1, 2, 3, 4, 5}  # set
-fs = {1, 2, 3, 4, 5}  # frozenset
+# l = [1, 2, 3]  # list
+# t = (1, 2, 3)  # tuple
+# d = {'a': 1, 'b': 2, 'c': 3}  # dictionary
+# s = {1, 2, 3, 4, 5}  # set
+# fs = {1, 2, 3, 4, 5}  # frozenset
 #
 # for element in l:
 #     print(element)
@@ -50,8 +50,38 @@ fs = {1, 2, 3, 4, 5}  # frozenset
 # coord = {(0, 0, 0): 1, (0, 0, 1): 2}
 #
 
-s = {1, 2, 3, 4, 5}  # set
-fs = {1, 2, 3, 4, 5}  # frozenset  кортеж множество
+# s = {1, 2, 3, 4, 5}  # set
+# fs = {1, 2, 3, 4, 5}  # frozenset  кортеж множество
+#
+# s = set('abbbcd')
+# print(s)
+# #split analog
+# s = list('abbbcd')
+# print(s)
+# s = 'a+b+b+b+c+d'
+# s = s.split('+')
+# print(s)
+# s = set([1,2,3,4,4,4])
+# print(s)
+# s = set((1,2,3,3,4,5))
+# print(s)
+# s = set({'a': 1, 'b': 2, 'c': 3})
+# print(s)
+#
+# some_list = [1,3,4,3,6,4,6,3,9,4,8,0,5,3]
+# print(some_list.__sizeof__())
+# some_list = list(set(some_list))
+# print(some_list.__sizeof__())
+# print(some_list)
+# users = [('Andrey',12345),('Sten',12345),('Andrey',12345)]
+# users = list(set(users))
+# users = []
+# users = list()
+# print(users)
+#
+#
+# fs = {1, 2, 3, 4, 5}  # frozenset  кортеж множество
+# fs = frozenset(users)
 
 s = set('abbbcd')
 print(s)

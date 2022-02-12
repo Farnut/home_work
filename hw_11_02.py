@@ -14,19 +14,33 @@ game = True
 money = 0
 while game:
     secret_number = random.randint(1,3)
+    contin = ''
     guess_number = 0
     lifes = 5
+    attemp = 0  # переменная для кол-ва попыток
     while secret_number != guess_number and lifes > 0:
         guess_number = int(input("Enter number : "))
         lifes = lifes - 1
+        attemp = attemp + 1 # счетчик попыток
         print(f'You have {lifes} lifes')
         if secret_number < guess_number:
-            print('Your number greater than secret\nТвоё число больше, чем загаданное')
+            print(f'Your number greater than secret\nТвоё число больше, чем загаданное')
         elif secret_number > guess_number:
-            print('Your number less than secret\nТвоё число меньше, чем загаданное')
+            print(f'Your number less than secret\nТвоё число меньше, чем загаданное')
     if lifes > 0:
-        print('YOU WIN!!!')
         money = money + 5
+        print(f'YOU WIN!!! \nYou used {attemp} tries')
+        print(f'You guessed right on the {attemp} try')
+        print(f'You have {money} money')
+        contin = str(input(f'Do you want to play again ? Print yes [y] or no [n] : ')) # вопрос о продолжении игры
+        if contin == 'y':
+            game = True
+        elif contin == 'n':
+            game = False
     else:
-        print('YOU LOSE')
-    print(f'You have {money} money')
+        print(f'YOU LOSE')
+        contin = str(input(f'Do you want to play again ? Print yes [y] or no [n] : ')) # вопрос о продолжении игры
+        if contin == 'y':
+            game = True
+        elif contin == 'n':
+            game = False

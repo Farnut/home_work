@@ -72,3 +72,18 @@
 '''Задание 6
 Напишите функцию, которая проверяет является ли число простым. Число передаётся в качестве параметра. Если число простое нужно 
 вернуть из метода true, иначе false.'''
+
+n = 137
+s = ''
+for i in range(2,n):
+    if n % i == 0:
+        s = 'NOT SIMPLE'
+        break
+if s != 'NOT SIMPLE':
+    s = 'SIMPLE'
+print(s)
+def simple(n):
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
