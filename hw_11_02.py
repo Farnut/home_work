@@ -32,15 +32,12 @@ while game:
         print(f'YOU WIN!!! \nYou used {attemp} tries')
         print(f'You guessed right on the {attemp} try')
         print(f'You have {money} money')
-        contin = str(input(f'Do you want to play again ? Print yes [y] or no [n] : ')) # вопрос о продолжении игры
-        if contin == 'y':
-            game = True
-        elif contin == 'n':
-            game = False
     else:
         print(f'YOU LOSE')
-        contin = str(input(f'Do you want to play again ? Print yes [y] or no [n] : ')) # вопрос о продолжении игры
-        if contin == 'y':
-            game = True
-        elif contin == 'n':
-            game = False
+    new_game = str(input(f'Do you want to play again ? Print Yes [y] or No [n] : '))# вопрос о продолжении игры
+    while new_game != 'y' and new_game != 'n':
+        new_game = str(input(f'Enter correct answer : '))
+    if new_game == 'y':
+        game = True
+    elif new_game == 'n':
+        game = False
