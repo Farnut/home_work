@@ -19,19 +19,19 @@
 #
 # print(s)
 
-s = 'AbrakaDabrA'  # QiWi Yandex yandex qiwi Qiwi QIWI
-s = s.lower()
-symbol = 'a'
-symbol = symbol.lower()
-count = 0
-for i in range(len(s)):
-    if s[i] == symbol:
-        count = count + 1
-print(count)
-print(s.lower())
-print(s.upper())
-print(s.title())
-print(s.capitalize())
+# s = 'AbrakaDabrA'  # QiWi Yandex yandex qiwi Qiwi QIWI
+# s = s.lower()
+# symbol = 'a'
+# symbol = symbol.lower()
+# count = 0
+# for i in range(len(s)):
+#     if s[i] == symbol:
+#         count = count + 1
+# print(count)
+# print(s.lower())
+# print(s.upper())
+# print(s.title())
+# print(s.capitalize())
 
 '''Задание 1
 Есть некоторый текст. Реализуйте следующую функциональность:
@@ -154,10 +154,11 @@ print(s.capitalize())
 #         else:
 #             s = s + num[i]
 # print(int(s))
-s1 = '123445687'
-s1= s1.replace('3','')
-s1= s1.replace('6','')
-print(s1)
+
+# s1 = '123445687'
+# s1= s1.replace('3','')
+# s1= s1.replace('6','')
+# print(s1)
 
 '''Задание 1
 Есть некоторый текст. Реализуйте следующую функциональность:
@@ -280,10 +281,11 @@ print(s1)
 #         else:
 #             s = s + num[i]
 # print(int(s))
-s1 = '123445687'
-s1= s1.replace('3','')
-s1= s1.replace('6','')
-print(s1)
+
+# s1 = '123445687'
+# s1= s1.replace('3','')
+# s1= s1.replace('6','')
+# print(s1)
 
 
 

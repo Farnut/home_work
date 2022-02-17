@@ -101,9 +101,9 @@
 # fruits[4] = 'Orange'
 # print(fruits)
 
-colors = ['Red', 'Green', 'Blue']
-print(colors)
-colors.append('Orange')  # Add to the end of list
+# colors = ['Red', 'Green', 'Blue']
+# print(colors)
+# colors.append('Orange')  # Add to the end of list
 # Append to start of list
 # colors = ['Red','Green','Blue']
 # print(colors)
@@ -114,7 +114,7 @@ colors.append('Orange')  # Add to the end of list
 # colors = colors[::-1]
 # print(colors)
 # print(colors)
-colors.insert(2, 'Yellow')  # Add to the position of list
+# colors.insert(2, 'Yellow')  # Add to the position of list
 # print(colors)
 # colors.pop()#Delete from the end of list
 # print(colors)
@@ -126,7 +126,7 @@ colors.insert(2, 'Yellow')  # Add to the position of list
 # print(colors)
 # print('Purle' in colors)
 # print(len(colors))
-new_colors = colors
+# new_colors = colors
 # print(colors)
 # print(new_colors)
 # colors.append('Pink')
@@ -159,46 +159,46 @@ new_colors = colors
 максимальным элементом;
 * Сумму элементов, находящихся между первым и 
 последним положительными элементами.'''
-numbers = [1, 2, 3, 4, -5, 6, 35, -1, -4, 9, 20, 21, 15]
-sum_neg = 0
-sum_even = 0
-sum_odd = 0
-for number in numbers:
-    if number < 0:
-        sum_neg = sum_neg + number
-    if number % 2 == 0 and number != 0:
-        sum_even = sum_even + number
-    elif number % 2 != 0 and number != 0:
-        sum_odd = sum_odd + number
-print(sum_neg,sum_odd,sum_even)
-# print(0%2)#0 при проверке на чётность, будет считаться чётном
-mult_3 = 1
-mult_min_max = 1
-minimum = numbers[0]
-minimum_index = 0
-maximum = numbers[0]
-maximum_index = 0
-for index in range(len(numbers)):
-    if index % 3 == 0 and index != 0:
-        mult_3 = mult_3 * numbers[index]
-        # numbers = [1, 2, 3, 4, -5, 6, 35, -1, -4, 9, 20, 21, 15]
-    if minimum > numbers[index]:
-        minimum = numbers[index]
-        minimum_index = index
-    if maximum < numbers[index]:
-        maximum = numbers[index]
-        maximum_index = index
-mult_numbers = []
-# numbers = [100, 2, 3, 4, -5, 6, 35, -1, -4, 9, 20, 21, 15]
-# print(numbers[4:0+1:-1])
-#               0        4       6
-if maximum_index < minimum_index:
-    mult_numbers = numbers[maximum_index:minimum_index+1]
-else:
-    mult_numbers = numbers[minimum_index:maximum_index+1]
-
-for number in mult_numbers:
-    mult_min_max = mult_min_max * number
-print(mult_min_max)
+# numbers = [1, 2, 3, 4, -5, 6, 35, -1, -4, 9, 20, 21, 15]
+# sum_neg = 0
+# sum_even = 0
+# sum_odd = 0
+# for number in numbers:
+#     if number < 0:
+#         sum_neg = sum_neg + number
+#     if number % 2 == 0 and number != 0:
+#         sum_even = sum_even + number
+#     elif number % 2 != 0 and number != 0:
+#         sum_odd = sum_odd + number
+# print(sum_neg,sum_odd,sum_even)
+# # print(0%2)#0 при проверке на чётность, будет считаться чётном
+# mult_3 = 1
+# mult_min_max = 1
+# minimum = numbers[0]
+# minimum_index = 0
+# maximum = numbers[0]
+# maximum_index = 0
+# for index in range(len(numbers)):
+#     if index % 3 == 0 and index != 0:
+#         mult_3 = mult_3 * numbers[index]
+#         # numbers = [1, 2, 3, 4, -5, 6, 35, -1, -4, 9, 20, 21, 15]
+#     if minimum > numbers[index]:
+#         minimum = numbers[index]
+#         minimum_index = index
+#     if maximum < numbers[index]:
+#         maximum = numbers[index]
+#         maximum_index = index
+# mult_numbers = []
+# # numbers = [100, 2, 3, 4, -5, 6, 35, -1, -4, 9, 20, 21, 15]
+# # print(numbers[4:0+1:-1])
+# #               0        4       6
+# if maximum_index < minimum_index:
+#     mult_numbers = numbers[maximum_index:minimum_index+1]
+# else:
+#     mult_numbers = numbers[minimum_index:maximum_index+1]
+#
+# for number in mult_numbers:
+#     mult_min_max = mult_min_max * number
+# print(mult_min_max)
 
 

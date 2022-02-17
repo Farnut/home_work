@@ -1,16 +1,22 @@
-'''Задание 1
-Напишите программу, которая запрашивает два целых числа x и y, после чего вычисляет и выводит значение x в степени y'''
+"""Задание 1
+Напишите программу, которая запрашивает два целых числа x и y, после чего вычисляет и выводит значение x в степени y"""
 
-# x = int(input(f'Enter integer value [x] :'))
-# y = int(input(f'Enter integer value [y] :'))
-# x = x ** y
-# print(f'Your result is {x}')
+# x = input(f'Enter integer value [x] : ')
+# y = input(f'Enter integer value [y] : ')
+# multiple = 0
+# while x.isnumeric() == False and y.isnumeric() == False:
+#     x = input(f'Enter integer value [x], not alphabet : ')
+#     y = input(f'Enter integer value [y], not alphabet : ')
+# x = int(x)
+# y = int(y)
+# multiple = x ** y
+# print(f'{x} to the power of {y} is {multiple}')
 
 '''Задание 2
 Подсчитать количество целых чисел в диапазоне от 100 до 999 у которых есть две одинаковые цифры.'''
 
 # amount = 0
-# for i in range(100, 1000, 1):
+# for i in range(100, 999, 1):
 #     number = i
 #     n1 = number // 100
 #     n2 = ((number) // 10) % 10
@@ -23,18 +29,24 @@
 Подсчитать количество целых чисел в диапазоне от 100 до 9999 у которых все цифры разные.'''
 
 # total = 0
-# for n in range(9990, 9999, 1):
+# for n in range(10, 10000, 1):
 #     s = str(n)
-#     if s[0] != s[1] or s[0] != s[2] or s[0] != s[3] or s[1] != s[2] or s[1] != s[3] or s[2] != s[3]:
-#         total = total + 1
-# print(total)
+#     if len(s) == 4:
+#         if s[0] != s[1] and s[0] != s[2] and s[0] != s[3] and s[1] != s[2] and s[1] != s[3] and s[2] != s[3]:
+#             total = total + 1
+#     if len(s) == 3:
+#         if s[0] != s[1] and s[0] != s[2] and s[1] != s[2]:
+#             total = total + 1
+# print(f'Total numbers with different digits is {total}')
 
 '''Задание 4
 Пользователь вводит любое целое число. Необходимо из этого целого числа удалить все цифры 3 и 6 и вывести обратно на экран.'''
 
-a = 136
-b = str(a)
-for i in  range(len(b)):
-    if b[i] == 3 or b[i] == 6:
-        del b[i]
-print(b)
+# n = '136' # str(input(f'Enter your namber : '))
+# n_new = ''
+# for number in n:
+#     if number == '3' or number == '6':
+#         continue
+#     n_new = n_new + number
+# n = int(n_new)
+# print(n)
