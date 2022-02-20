@@ -23,8 +23,8 @@ print(trio)
 
 # dict словарь (массив)
 # #итерируемый тип данных\ изменяемый тип данных\ ключ значение \не упорядоченый в памяти
-countries = {'Ukraine': 'Kiev', 'Poland': 'Warshava'}
-d = {0: 'Andrey', 'a': 'Forever', 'k': 3}
+# countries = {'Ukraine': 'Kiev', 'Poland': 'Warshava'}
+# d = {0: 'Andrey', 'a': 'Forever', 'k': 3}
 #ключ - любой неизменяемый тип данных : значение - любой тип данных
 # print(d)
 # print(d['a'])

@@ -1,0 +1,111 @@
+1645122479238	geckodriver	INFO	Listening on 127.0.0.1:63334
+1645122482310	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63335" "-no-remote" "-profile" "C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofilekJTeVP"
+1645122483249	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofilekJTeVP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63335/devtools/browser/a8872115-72ba-44ab-89d9-e122de13175a
+1645122486325	Marionette	INFO	Listening on port 63341
+1645122486549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iQyr4/yh/l/ru_RU/I4Y6I3ClX-_.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+1645122487871	Marionette	INFO	Stopped listening on port 63341
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1645123208239	geckodriver	INFO	Listening on 127.0.0.1:63423
+1645123211305	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63424" "-no-remote" "-profile" "C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofilefzOHMd"
+1645123211880	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofilefzOHMd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63424/devtools/browser/7460c5e9-944f-4561-9439-88e969af29f4
+1645123214572	Marionette	INFO	Listening on port 63429
+1645123214981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645123325382	Marionette	INFO	Stopped listening on port 63429
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1645123333169	geckodriver	INFO	Listening on 127.0.0.1:63489
+1645123336226	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63490" "-no-remote" "-profile" "C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofilebFFKda"
+1645123336605	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofilebFFKda\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63490/devtools/browser/905e6d45-5fb4-4a34-92b5-ca75fad5e2bf
+1645123339433	Marionette	INFO	Listening on port 63495
+1645123341559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645123410658	Marionette	INFO	Stopped listening on port 63495
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1645123475144	geckodriver	INFO	Listening on 127.0.0.1:63560
+1645123478275	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63561" "-no-remote" "-profile" "C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofileybeRtP"
+1645123478977	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofileybeRtP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63561/devtools/browser/3bf8f48b-d312-4f0e-8364-bb517c71a3c2
+1645123481700	Marionette	INFO	Listening on port 63566
+1645123481965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645123712926	Marionette	INFO	Stopped listening on port 63566
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1645123720335	geckodriver	INFO	Listening on 127.0.0.1:63634
+1645123723405	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63635" "-no-remote" "-profile" "C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofileZPgizR"
+1645123723876	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofileZPgizR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63635/devtools/browser/07479c9c-a45c-4224-8eeb-b841d34b65d6
+1645123726839	Marionette	INFO	Listening on port 63640
+1645123727104	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645123991753	Marionette	INFO	Stopped listening on port 63640
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1645124438903	geckodriver	INFO	Listening on 127.0.0.1:63737
+1645124441968	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63738" "-no-remote" "-profile" "C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofilePCJQL8"
+1645124442333	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofilePCJQL8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63738/devtools/browser/a729f252-bdfd-4e7d-a0d1-1a962a4bb31a
+1645124444957	Marionette	INFO	Listening on port 63743
+1645124445160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645124707576	Marionette	INFO	Stopped listening on port 63743
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1645124713606	geckodriver	INFO	Listening on 127.0.0.1:63813
+1645124716665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63814" "-no-remote" "-profile" "C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofileU16V0B"
+1645124717008	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofileU16V0B\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63814/devtools/browser/37dae565-82eb-47d4-b832-337ccacfafdc
+1645124719916	Marionette	INFO	Listening on port 63819
+1645124720343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645125372220	Marionette	INFO	Stopped listening on port 63819
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645125424878	geckodriver	INFO	Listening on 127.0.0.1:63917
+1645125427996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63918" "-no-remote" "-profile" "C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofileP9qe0s"
+1645125428395	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ROBOD\\AppData\\Local\\Temp\\rust_mozprofileP9qe0s\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63918/devtools/browser/2a6fdbd5-8a72-454e-bc33-76152f67d88f
+1645125431134	Marionette	INFO	Listening on port 63923
+1645125431172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1645126908961	Marionette	INFO	Stopped listening on port 63923
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
